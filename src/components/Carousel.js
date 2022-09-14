@@ -39,8 +39,23 @@ const interval = 2000;
 export default function Carousel() {
   const [data, setData] = useState([
     {
-      headerText: "Hello",
-      headerText2:"Hellondsknsdkfksd sd fskdjfksdk sdkfj",
+      headerText: "Wishlist Now",
+      headerText2:"Launching Tomorrow",
+      description: "Only one pair of AirPods per eligible Mac or eligible iPad per qualified purchaser.",
+      image:
+        "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80",
+    },
+    {
+      headerText: "Wishlist Now",
+      headerText2:"Launching Tomorrow",
+      description: "Only one pair of AirPods per eligible Mac or eligible iPad per qualified purchaser.",
+      image:
+        "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80",
+    },
+    {
+      headerText: "Wishlist Now",
+      headerText2:"Launching Tomorrow",
+      description: "Only one pair of AirPods per eligible Mac or eligible iPad per qualified purchaser.",
       image:
         "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80",
     },
@@ -146,7 +161,7 @@ export default function Carousel() {
             </>
           ))}
         </div>
-        <img src={data} />
+        {/* <img src={data} /> */}
       </div>
 
       <BubbleContainer>

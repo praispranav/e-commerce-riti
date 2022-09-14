@@ -236,15 +236,15 @@ export default function NewArrival() {
       <div className="pt-5" />
       <HeaderNormal>Smart Electronics</HeaderNormal>
       <div className="d-flex ">
-        <div className="mt-3" style={{ flex: 1 / 4 }}>
-          <ProductType2 width="100%" id="2"
+        {/* <div className="mt-3" style={{ flex: 1 / 4 }}>
+          <ProductType2 width="400px" id="2"
             background="#f06292cmd
             "
             height="100%"
             headerText="Congrats Class of 2020"
             image={Cctv}
             description="Use Code: Madinal to 10% Off on items worth $358" />
-        </div>
+        </div> */}
         <div className="row flex-wrap mt-3">
           <Product3 id="1"
             name="Slim Fit Denim Scratched High Quality Men's"
