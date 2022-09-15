@@ -2,10 +2,28 @@ import React from "react";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
 import { Link } from "react-router-dom";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
-export default function Product({ image, label, price, discount, name, containerWidth,containerClass }) {
+export default function Product({
+  image,
+  label,
+  price,
+  discount,
+  name,
+  containerWidth,
+  containerClass,
+}) {
   return (
-    <Link to={'/product?id=1001'} className={`m-3 ${containerClass}`} style={{ width: containerWidth ? containerWidth : "150px", maxWidth: '175px', textDecoration: 'none', color: 'black' }}>
+    <Link
+      to={"/product?id=1001"}
+      className={`m-3 ${containerClass}`}
+      style={{
+        width: containerWidth ? containerWidth : "150px",
+        maxWidth: "175px",
+        textDecoration: "none",
+        color: "black",
+      }}
+    >
       {/* Label Space */}
       <div
         className="d-flex justify-content-center"
@@ -13,7 +31,13 @@ export default function Product({ image, label, price, discount, name, container
       >
         <img src={image} alt="none" />
       </div>
-      <p className="border-bottom pb-2">Rating</p>
+
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiOutlineStar />
+      {/* <p className="border-bottom pb-2">Rating</p> */}
       <p style={{ fontSize: Font.Small }} className="py-2">
         {name}
       </p>
@@ -25,7 +49,12 @@ export default function Product({ image, label, price, discount, name, container
         className="pb-2"
       >
         {" "}
-        <span style={{ textDecoration: discount ? "line-through" : "none", fontWeight: discount ? 'none' : 500   }}>
+        <span
+          style={{
+            textDecoration: discount ? "line-through" : "none",
+            fontWeight: discount ? "none" : 500,
+          }}
+        >
           {" "}
           $ {price}{" "}
         </span>

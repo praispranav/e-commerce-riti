@@ -13,6 +13,11 @@ const Divider = styled.div`
   height: 1px;
 `;
 
+
+
+
+
+
 function Product2({
   time,
   stock,
@@ -22,10 +27,25 @@ function Product2({
   discount,
   decorationText,
 }) {
+
+
+const [isMouseInside, setIsMouseInside] = useState("white");
+const mouseEnter = () => {
+  console.log("mouse In")
+  setIsMouseInside("rgb(185, 190, 238)")
+}
+
+const mouseOut = () => {
+  console.log("mouse Out")
+  setIsMouseInside("white")
+}
+
   return (
     <div
       className="p-5 border mx-2 w-100 border-radius"
-      style={{ backgroundColor: "white" }}
+      onMouseEnter={mouseEnter} 
+      style={{ backgroundColor: isMouseInside }}
+      onMouseOut={mouseOut}
     >
       <div className="d-flex justify-content-between">
           <div style={{ flex: 1/2 }} className="d-flex justify-content-center align-items-center">

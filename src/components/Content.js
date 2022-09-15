@@ -199,7 +199,10 @@ export default function Content(props) {
     rating: "4.7",
     totalSale: "1000",
     location: "Patna",
-    policy: ["7 Days Replacement Policy", "GST invoice available"],
+    policy: [
+      "7 day seller replacement policy/brand assistance",
+      "GST invoice available",
+    ],
   };
 
   const addOnProduct = [];
@@ -412,7 +415,7 @@ export default function Content(props) {
 
           <input
             type="text"
-            style={{ flex: 3 / 6 }}
+            style={{ flex: 3 / 6 , outline:"none" }}
             className="border-0"
             placeholder="Pin Code"
           />
@@ -474,7 +477,7 @@ export default function Content(props) {
         )}
         {importantNote && (
           <div className="mt-3" style={{ maxWidth: "300px" }}>
-            <SubHeader>Important Note</SubHeader>
+            <SubHeader className="ms-2">Important Note</SubHeader>
             <p
               className="ms-2"
               style={{ fontSize: Font.Small, color: "rgb(117,117,117)" }}

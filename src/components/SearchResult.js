@@ -618,6 +618,30 @@ const data = [
         label: "New",
         image: ProductImage,
     },
+    {
+        id: "4",
+        name: "Slim Fit Denim Scratched High Quality Men's",
+        price: "9.00",
+        rating: "4",
+        label: "New",
+        image: ProductImage,
+    },
+    {
+        id: "4",
+        name: "Slim Fit Denim Scratched High Quality Men's",
+        price: "9.00",
+        rating: "4",
+        label: "New",
+        image: ProductImage,
+    },
+    {
+        id: "4",
+        name: "Slim Fit Denim Scratched High Quality Men's",
+        price: "9.00",
+        rating: "4",
+        label: "New",
+        image: ProductImage,
+    },
 
 ];
 
@@ -668,7 +692,7 @@ export default function SearchResult(props) {
         console.log('Result', result)
     }, [])
     return (
-        <div className=" mx-0 mb-0">
+        <div className=" mx-0 mb-0 ps-4">
 
             {props.selectedCategory.toLowerCase() != 'All Categories'.toLowerCase() && (
                 <div style={{ backgroundColor: 'rgb(240,240,240)' }} className="w-100 p-4 d-flex align-item-center justify-content-center">

@@ -7,6 +7,7 @@ import Cctv from "../assets/images/cctv.png";
 import ProductType2 from "../elements/ProductType1";
 import HeaderNormal from "../elements/HeaderNormal"
 import { Colors } from "../config/Colors"
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 function Product3({ discount, image, price, name }) {
   return (
@@ -18,7 +19,12 @@ function Product3({ discount, image, price, name }) {
         <img src={image} alt="none" />
       </div>
       <div>
-        <p className="border-bottom pb-2">Rating</p>
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiFillStar style={{ color: "rgb(248, 220, 9)" }} />
+      <AiOutlineStar />
+        {/* <p className="border-bottom pb-2">Rating</p> */}
         <p style={{ fontSize: Font.Small }} className="py-2">
           {name}
         </p>
@@ -340,7 +346,7 @@ export default function NewArrival() {
             label="New"
             image={ProductImage} />
         </div>
-        <div className="mt-3" style={{ flex: 1 / 4 }}>
+        <div className="mt-3 ms-4" style={{ flex: 1 / 4 }}>
           <ProductType2 width="100%" id="2"
             background="#9575cd"
             height="100%"

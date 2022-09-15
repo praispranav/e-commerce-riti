@@ -50,13 +50,13 @@ export default function Footer() {
               <div className="d-flex align-items-center">
                 <MdAddIcCall />
                 <p
-                  className="mx-3"
+                  className="mx-3 m-3"
                   style={{ fontWeight: "bold", fontSize: Font.Large }}
                 >
                   ( +91 ) 7644015588
                 </p>
               </div>
-              <BoldText style={{}} className="my-3">
+              <BoldText style={{}} className=" ">
                 Payments
               </BoldText>
             </div>
@@ -91,13 +91,13 @@ export default function Footer() {
                 <input
                   style={{ flex: "8/10" }}
                   type="text"
-                  className="form-control"
+                  className="form-control mt-4"
                 ></input>
                 <IconButton
                   background="black"
                   hover={Colors.PrimaryLight}
                   style={{ fontSize: "22px" }}
-                  className="px-3"
+                  className="px-3 mt-4 ms-3"
                 >
                   <AiOutlineMail />
                 </IconButton>
