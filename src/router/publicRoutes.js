@@ -11,6 +11,7 @@ import otppage from "../pages/otppage";
 import myprofile from "../pages/myprofile";
 import paymentpage from "../pages/paymentpage";
 import home2 from "../pages/Home2";
+import sellerProfile from "../pages/sellerProfile"
 export const publicRoutes = [
   {
     path: "/search",
@@ -69,6 +70,11 @@ export const publicRoutes = [
 {
   path:"/home2",
   component: home2,
+},
+
+{
+  path:"/sellerprofile",
+  component: sellerProfile,
 }
 
 ];
