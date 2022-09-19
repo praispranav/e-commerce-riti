@@ -18,7 +18,7 @@ const Cartcard1 = styled.div({
   height: "40px",
   width: "700px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 
@@ -52,7 +52,7 @@ const Cartcard2 = styled.div({
   height: "610px",
   width: "700px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 
@@ -60,7 +60,7 @@ const Pricedetailcard = styled.div({
   height: "370px",
   width: "300px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 

@@ -22,7 +22,7 @@ const Profilecard = styled.div({
   width: "100%",
   height: "70px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 
@@ -40,7 +40,7 @@ const Ordercard = styled.div({
   width: "100%",
   height: "605px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 
@@ -74,23 +74,21 @@ const Infocard = styled.div({
   height: "200px",
   width: "100%",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
 });
 
 const Infocard2 = styled.div({
   height: "693px",
   width: "100%",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
 });
 
 const Infocard3 = styled.div({
   height: "477px",
   width: "100%",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
 });
-
 
 const Circle2 = styled.div({
   height: "100px",
@@ -116,15 +114,15 @@ const CommentInput = styled.textarea({
 });
 
 const Submitbtn = styled.button({
-  outline:"none",
-  backgroundColor:Colors.Primary,
-  color:"white",
-  fontSize:Font.Small,
-  border:"none",
-  height:"30px",
-  width:"80px",
-  borderRadius:"5px ",
-})
+  outline: "none",
+  backgroundColor: Colors.Primary,
+  color: "white",
+  fontSize: Font.Small,
+  border: "none",
+  height: "30px",
+  width: "80px",
+  borderRadius: "5px ",
+});
 
 export default function CartPage() {
   return (
@@ -156,16 +154,11 @@ export default function CartPage() {
                           <Hellotext1 className="mt-3 ms-2">
                             Seller Name
                           </Hellotext1>
-                          <MdStar
-                            className="ms-1"
-                            style={{ color: "red" }}
-                          />
+                          <MdStar className="ms-1" style={{ color: "red" }} />
                           <MdStar style={{ color: "blue" }} />
                           <MdStar style={{ color: "blue" }} />
                           <MdStar style={{ color: "green" }} />
-                          <MdStarOutline
-                            style={{ color: "green" }}
-                          />
+                          <MdStarOutline style={{ color: "green" }} />
                         </div>
                       </div>
                     </div>
@@ -278,10 +271,7 @@ export default function CartPage() {
                           </div>
                           <div className="d-flex mt-2">
                             <Hellotext>1</Hellotext>
-                            <MdStar
-                              className="ms-1"
-                              style={{ color: "red" }}
-                            />
+                            <MdStar className="ms-1" style={{ color: "red" }} />
                           </div>
                         </div>
 
@@ -377,7 +367,7 @@ export default function CartPage() {
                     </div>
                   </Infocard>
                   <div className="mt-3">
-                  <Infocard3></Infocard3>
+                    <Infocard3></Infocard3>
                   </div>
                 </div>
 
@@ -391,9 +381,10 @@ export default function CartPage() {
                         className="mt-2"
                       ></CommentInput>
                       <div className="ms-4">
-<div className="ms-5 ps-5">
-<Submitbtn className="mt-2 ms-5">SUBMIT</Submitbtn>
-</div></div>
+                        <div className="ms-5 ps-5">
+                          <Submitbtn className="mt-2 ms-5">SUBMIT</Submitbtn>
+                        </div>
+                      </div>
                     </div>
                   </Infocard2>
                 </div>

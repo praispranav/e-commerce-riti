@@ -177,84 +177,84 @@ export default function home2() {
 
       <div>
         <div>
-        <img
-          src={ring}
-          style={{
-            height: "180px",
-            width: "180px",
-            paddingLeft: "25px",
-            paddingTop: "25px",
-          }}
-        />
+          <img
+            src={ring}
+            style={{
+              height: "180px",
+              width: "180px",
+              paddingLeft: "25px",
+              paddingTop: "25px",
+            }}
+          />
 
-        <p className="ms-5" style={{ fontWeight: "500" }}>
-          Diamond Rings
-        </p>
-        <p className="ps-5">Shop Now</p>
+          <p className="ms-5" style={{ fontWeight: "500" }}>
+            Diamond Rings
+          </p>
+          <p className="ps-5">Shop Now</p>
         </div>
         <div>
-        <img
-          src={ring}
-          style={{
-            height: "180px",
-            width: "180px",
-            paddingLeft: "25px",
-            paddingTop: "25px",
-          }}
-        />
+          <img
+            src={ring}
+            style={{
+              height: "180px",
+              width: "180px",
+              paddingLeft: "25px",
+              paddingTop: "25px",
+            }}
+          />
 
-        <p className="ms-5" style={{ fontWeight: "500" }}>
-          Diamond Rings
-        </p>
-        <p className="ps-5">Shop Now</p>
+          <p className="ms-5" style={{ fontWeight: "500" }}>
+            Diamond Rings
+          </p>
+          <p className="ps-5">Shop Now</p>
         </div>
         <div>
-        <img
-          src={ring}
-          style={{
-            height: "180px",
-            width: "180px",
-            paddingLeft: "25px",
-            paddingTop: "25px",
-          }}
-        />
+          <img
+            src={ring}
+            style={{
+              height: "180px",
+              width: "180px",
+              paddingLeft: "25px",
+              paddingTop: "25px",
+            }}
+          />
 
-        <p className="ms-5" style={{ fontWeight: "500" }}>
-          Diamond Rings
-        </p>
-        <p className="ps-5">Shop Now</p>
+          <p className="ms-5" style={{ fontWeight: "500" }}>
+            Diamond Rings
+          </p>
+          <p className="ps-5">Shop Now</p>
         </div>
         <div>
-        <img
-          src={ring}
-          style={{
-            height: "180px",
-            width: "180px",
-            paddingLeft: "25px",
-            paddingTop: "25px",
-          }}
-        />
+          <img
+            src={ring}
+            style={{
+              height: "180px",
+              width: "180px",
+              paddingLeft: "25px",
+              paddingTop: "25px",
+            }}
+          />
 
-        <p className="ms-5" style={{ fontWeight: "500" }}>
-          Diamond Rings
-        </p>
-        <p className="ps-5">Shop Now</p>
+          <p className="ms-5" style={{ fontWeight: "500" }}>
+            Diamond Rings
+          </p>
+          <p className="ps-5">Shop Now</p>
         </div>
         <div>
-        <img
-          src={ring}
-          style={{
-            height: "180px",
-            width: "180px",
-            paddingLeft: "25px",
-            paddingTop: "25px",
-          }}
-        />
+          <img
+            src={ring}
+            style={{
+              height: "180px",
+              width: "180px",
+              paddingLeft: "25px",
+              paddingTop: "25px",
+            }}
+          />
 
-        <p className="ms-5" style={{ fontWeight: "500" }}>
-          Diamond Rings
-        </p>
-        <p className="ps-5">Shop Now</p>
+          <p className="ms-5" style={{ fontWeight: "500" }}>
+            Diamond Rings
+          </p>
+          <p className="ps-5">Shop Now</p>
         </div>
       </div>
     </div>

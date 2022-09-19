@@ -26,7 +26,7 @@ const Profilecard = styled.div({
   width: "100%",
   height: "70px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 
@@ -44,7 +44,7 @@ const Ordercard = styled.div({
   width: "100%",
   height: "605px",
   backgroundColor: Colors.creamy,
-  boxShadow: "1px 3px 3px  grey",
+  boxShadow: "1px 1px 8px   lightgrey",
   borderRadius: "2px",
 });
 

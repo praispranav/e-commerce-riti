@@ -11,7 +11,7 @@ import LoginImage from "../assets/images/loginimg.jpg";
 const Whitebackground = styled.div({
   height: "700px",
   width: "100%",
-  backgroundColor: Colors.GreyLight,
+  backgroundColor: Colors.creamy,
 });
 
 const Bluecard = styled.div({
