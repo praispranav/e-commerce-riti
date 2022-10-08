@@ -6,7 +6,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { Font } from "../config/Font";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import { contactInfo } from "../services/homePage";
-
+import { Link } from "react-router-dom";
+import { MdLogout } from "react-icons/md"
 const TopNav = () => {
   const [state, setState] = useState({
     mobile: 9999900000,
@@ -51,6 +52,7 @@ const TopNav = () => {
           </p>
         </div>
         <div class="d-flex align-items-center">
+          <Link to={"/myprofile"}>
           <IconButton
             className="mx-2 px-2"
             hover={Colors.Primary}
@@ -58,6 +60,7 @@ const TopNav = () => {
           >
             <AiFillSetting className="me-2" /> Settings
           </IconButton>{" "}
+          </Link>
           /
           <IconButton
             className="mx-2 px-2"
@@ -66,6 +69,16 @@ const TopNav = () => {
           >
             <BsFillBagCheckFill className="me-2" /> Orders
           </IconButton>
+          /
+          <Link to={"/loginpage"}>
+          <IconButton
+            className="mx-2 px-2"
+            hover={Colors.Primary}
+            background={Colors.PrimaryDark}
+          >
+            <MdLogout className="me-2" /> Logout
+          </IconButton>
+          </Link>
         </div>
       </div>
     </div>

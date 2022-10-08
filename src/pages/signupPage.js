@@ -7,6 +7,7 @@ import styled from "styled-components";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
 import LoginImage from "../assets/images/loginimg.jpg";
+import { Link } from "react-router-dom";
 
 const Whitebackground = styled.div({
   height: "700px",
@@ -151,11 +152,15 @@ export default function addressPage() {
                       Privacy Policy
                     </Whitecardfont2>
                     <div className="pt-4">
+                      <Link to={"/otppage"}>
                       <Continuebtn type="submit">CONTINUE</Continuebtn>
+                      </Link>
                     </div>
+                    <Link to={"/loginpage"}>
                     <Existinguserbtn type="submit">
                       Existing User? Log in
                     </Existinguserbtn>
+                    </Link>
                   </div>
                 </div>
               </Whitecard>

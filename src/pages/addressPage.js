@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import styled from "styled-components";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
-import { left } from "@popperjs/core";
+import { Link } from "react-router-dom";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const Cardbackground = styled.div({
@@ -263,7 +263,9 @@ export default function CartPage() {
                           </div>
 
                           <div>
+                            <Link to={"/myprofile"}>
                             <Changebtn className=" mt-2 ">Change</Changebtn>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -382,10 +384,11 @@ export default function CartPage() {
                     <Addcard2>
                       <div className="ps-3 pt-2 d-flex">
                         <OneText className="pt-1">3</OneText>
-
+<Link to={"/ordersummary"}>
                         <OrdersumText className="ps-3 pt-1">
                           ORDER SUMMARY{" "}
                         </OrdersumText>
+                        </Link>
                       </div>
                     </Addcard2>
                   </div>
@@ -394,10 +397,11 @@ export default function CartPage() {
                     <Addcard2>
                       <div className="ps-3 pt-2 d-flex">
                         <OneText className="pt-1">4</OneText>
-
+<Link to={"/paymentpage"}>
                         <OrdersumText className="ps-3 pt-1">
                           PAYMENT OPTIONS{" "}
                         </OrdersumText>
+                        </Link>
                       </div>
                     </Addcard2>
                   </div>

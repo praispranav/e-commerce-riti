@@ -15,6 +15,7 @@ import { BsChatLeftTextFill } from "react-icons/bs";
 import { BsPersonSquare } from "react-icons/bs";
 import { ImSwitch } from "react-icons/im";
 import logoimg2 from "../assets/images/logoimg2.jpg";
+import { Link } from "react-router-dom";
 
 const Cardbackground = styled.div({
   height: "1050px",
@@ -252,10 +253,12 @@ export default function CartPage() {
                           <Line className="mt-3"></Line>
 
                           <div>
+                            <Link to={"/loginpage"}>
                             <Oredericon className="d-flex ms-2  pt-3">
                               <ImSwitch className="mt-1"></ImSwitch>
                               <Oredertext className=" ms-3">Logout</Oredertext>
                             </Oredericon>
+                            </Link>
                           </div>
                         </div>
                       </div>

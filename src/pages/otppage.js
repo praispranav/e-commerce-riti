@@ -7,6 +7,7 @@ import styled from "styled-components";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
 import LoginImage from "../assets/images/loginimg.jpg";
+import { Link } from "react-router-dom";
 
 const Whitebackground = styled.div({
   height: "700px",
@@ -154,7 +155,9 @@ export default function addressPage() {
                   </Otpinput>
 
                   <div className="pt-4">
+                    <Link to={"/"}>
                     <Continuebtn type="submit">Verify</Continuebtn>
+                    </Link>
                   </div>
                   <Notrecievefont2>
                     <div className="d-flex pt-4 ">

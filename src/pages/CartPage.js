@@ -7,6 +7,7 @@ import styled from "styled-components";
 import { Colors } from "../config/Colors";
 import { Font } from "../config/Font";
 import ProductImage from "../assets/images/product2.jpg";
+import { Link } from "react-router-dom";
 
 const Cardbackground = styled.div({
   height: "790px",
@@ -392,8 +393,9 @@ export default function CartPage() {
                     <div className="pt-2">
                       <Line></Line>
                     </div>
-
+<Link to={"/address"}>
                     <Orderbtn>PLACE ORDER</Orderbtn>
+                    </Link>
                   </Cartcard2>
                 </div>
                 <div className="col-4 my-4">

@@ -9,6 +9,7 @@ import IconButton from "../elements/IconButton";
 
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsFillHandbagFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -165,13 +166,16 @@ export default function ImageViewer(props) {
                   textAlign: "center",
                 }}
               >
+           
                 <span className="mx-auto">
                   <AiOutlineShoppingCart className="me-4 mb-1" />
                   Add To Cart
                 </span>
+              
               </IconButton>
             </div>
             <div className="ms-2" style={{ flex: 1 / 2 }}>
+            <Link to={"/address"}>
               <IconButton
                 background={Colors.Primary}
                 hover={Colors.PrimaryDark}
@@ -189,6 +193,7 @@ export default function ImageViewer(props) {
                   Buy Now
                 </span>
               </IconButton>
+              </Link>
             </div>
           </div>
         </div>
